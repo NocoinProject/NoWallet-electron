@@ -5,7 +5,7 @@ config.appName = 'NoWallet';
 config.appDescription = 'NoCoin NoWallet';
 config.appSlogan = 'A cryptocurrency solution for nocoiners!';
 config.appId = 'org.nocoinproject.nowallet';
-config.appGitRepo = 'https://github.com/turtlecoin/turtle-wallet-electron';
+config.appGitRepo = 'https://github.com/NocoinProject/NoWallet-electron';
 
 // default port number for your daemon (e.g. TurtleCoind)
 config.daemonDefaultRpcPort = 11898;
@@ -31,7 +31,7 @@ config.walletServiceRpcPort = 8070;
 config.blockExplorerUrl = 'https://explorer.turtlecoin.lol/transaction.html?hash=[[TX_HASH]]';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
-config.remoteNodeDefaultHost = '84.184.64.22';
+config.remoteNodeDefaultHost = '87.177.59.70:11898';
 
 
 // remote node list update url, set to null if you don't have one
@@ -45,7 +45,7 @@ config.remoteNodeListFiltered = true;
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-  '84.184.64.22:11898',
+  '87.177.59.70:11898',
 
 ];
 

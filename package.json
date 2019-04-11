@@ -3,8 +3,8 @@
   "productName": "NoWallet",
   "description": "NoCoin GUI Wallet",
   "version": "v0.1.0",
-  "homepage": "https://github.com/turtlecoin/turtle-wallet-electron",
-  "repository": "https://github.com/turtlecoin/turtle-wallet-electron",
+  "homepage": "https://github.com/NocoinProject/NoWallet-electron",
+  "repository": "https://github.com/NocoinProject/NoWallet-electron",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -37,8 +37,8 @@
     "request-promise-native": "^1.0.7"
   },
   "build": {
-    "appId": "lol.turtlecoin.walletshell",
-    "copyright": "Copyright (c) 2018 Rixombea, Macroshock, TurtleCoin Developers",
+    "appId": "org.nocoinproject.nowallet",
+    "copyright": "Copyright (c) 2019 The Nocoin Project",
     "directories": {
       "output": "dist",
       "buildResources": "build"
@@ -68,14 +68,14 @@
       "target": [
         "AppImage"
       ],
-      "maintainer": "rixombea (@labaylabay)",
+      "maintainer": "The Nocoin Project",
       "category": "Office",
-      "vendor": "TurtleCoin",
-      "synopsis": "TurtleCoin GUI Wallet"
+      "vendor": "Nocoin Project",
+      "synopsis": "NoCoin GUI Wallet"
     },
     "win": {
       "target": "nsis",
-      "publisherName": "TurtleCoin"
+      "publisherName": "Nocoin Project"
     },
     "nsis": {
       "artifactName": "${productName}-v${version}-${os}-${arch}-setup.${ext}",

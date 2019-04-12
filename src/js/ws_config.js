@@ -2,7 +2,7 @@ var config = {};
 
 // self explanatory, your application name, descriptions, etc
 config.appName = 'NoWallet';
-config.appDescription = 'NoCoin NoWallet';
+config.appDescription = 'NoCoin GUI Wallet';
 config.appSlogan = 'A cryptocurrency solution for nocoiners!';
 config.appId = 'org.nocoinproject.nowallet';
 config.appGitRepo = 'https://github.com/NocoinProject/NoWallet-electron';

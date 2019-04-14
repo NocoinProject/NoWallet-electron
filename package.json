@@ -38,7 +38,7 @@
   },
   "build": {
     "appId": "org.nocoinproject.nowallet",
-    "copyright": "Copyright (c) 2019 The Nocoin Project",
+    "copyright": "Copyright (c) 2018 Rixombea, Macroshock, TurtleCoin Developers \nCopyright (c) 2019 The Nocoin Project",
     "directories": {
       "output": "dist",
       "buildResources": "build"

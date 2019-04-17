@@ -2,8 +2,8 @@ var config = {};
 
 // self explanatory, your application name, descriptions, etc
 config.appName = 'NoWallet';
-config.appDescription = 'NoCoin GUI Wallet';
-config.appSlogan = 'A cryptocurrency solution for nocoiners!';
+config.appDescription = 'Nocoin GUI Wallet';
+config.appSlogan = 'The cryptocurrency solution for nocoiners!';
 config.appId = 'org.nocoinproject.nowallet';
 config.appGitRepo = 'https://github.com/NocoinProject/NoWallet-electron';
 
@@ -51,7 +51,7 @@ config.remoteNodeListFallback = [
 ];
 
 // your currency name
-config.assetName = 'NoCoin';
+config.assetName = 'Nocoin';
 // your currency ticker
 config.assetTicker = 'NOC';
 // your currency address prefix, for address validation
@@ -80,8 +80,8 @@ config.addressBookObfuscationKey = '79009fb00ca1b7130832a42de45142cf6c4b7f333fe6
 // initial/sample entries to fill new address book
 config.addressBookSampleEntries = [
   {
-    name: 'WalletShell Donation',
-    address: 'TRTLv1A26ngXApin33p1JsSE9Yf6REj97Xruz15D4JtSg1wuqYTmsPj5Geu2kHtBzD8TCsfd5dbdYRsrhNXMGyvtJ61AoYqLXVS',
+    name: 'NocoinProject',
+    address: 'No2bfi5VWTAdowaCJ4akm7PgyYJxPVXJpJzm2HRnYcKH26CU8Tosgf6dRKezQnNVdShX4Pn8NJfzGiDzUrB7xW8K19tah8GQN',
     paymentId: '',
   }
 ];

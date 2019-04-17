@@ -359,7 +359,7 @@ select option:nth-child(odd) {
     padding: 0;
     line-height: 25px;
     position: absolute;
-    background-color: #011a66;
+    background-color: #2a53cc;
     border: 1px solid #929292cc;
     z-index: 1;
     -webkit-touch-callout: none;
@@ -375,7 +375,7 @@ select option:nth-child(odd) {
 }
 
 .fake-node-options ul li:nth-child(odd){
-    background: #004720;
+    background: #1a3ca3;
     color: #eee;
 }
 
@@ -558,7 +558,7 @@ span.form-msg.important{
 }
 
 .button-green{
-    background: -webkit-linear-gradient(top,  #0734ba 0%,#0d44e8 100%);
+    background: -webkit-linear-gradient(top, #3058d1 0%,#3c65e0 100%);
 }
 
 .button-gray {
@@ -566,7 +566,7 @@ span.form-msg.important{
 }
 
 .button-red {
-    background: -webkit-linear-gradient(top,  #911b1b 0%,#c93030 100%);
+    background: -webkit-linear-gradient(top,  #c93030 0%,#d63737 100%)
 }
 
 .button-gray.small,
@@ -934,11 +934,11 @@ text-align: center;
 }
   
 .checkbox-container:hover input ~ .checkmark {
-    background-color: #99ceb1;
+    background-color: #99a9d8;
 }
   
 .checkbox-container input:checked ~ .checkmark {
-    background-color: #00632e;
+    background-color: #2a4eba;
 }
   
 .checkmark:after {
@@ -1147,7 +1147,7 @@ dialog[open]{
 .default-dialog{
     width: 500px;
     max-width: 80%;
-    background: #004720;
+    background: #3d67e5;
     color: #fff;
     border: 2px solid #fff;
     padding: 0 1rem;
@@ -1180,7 +1180,7 @@ span.dialog-close:active{
 }
 
 .tx-dialog{
-    background-color: #004720;
+    background-color: #2a4eba;
     background-size: cover;
     width: 90%;
     max-width: 1000px;
@@ -1237,7 +1237,7 @@ span.form-help-qr.hidden{
     padding: 0.25rem 1rem;
     font-size: 0.85rem;
     color: #fefefe;
-    background: #00632e;
+    background: #2951c6;
     position: absolute;
     width: 100%;
     z-index: 9999;
@@ -1424,7 +1424,7 @@ input.path-input-button{
 
 .ag-paging-button{
     display: inline-block;
-    background-color: #00632e;
+    background-color: #3d5cba;
     color: #eee;
     padding: 4px 6px;
     margin: 0 4px 0 0;
@@ -1442,7 +1442,7 @@ input.path-input-button{
 
 .ag-paging-button:disabled,
 .ag-paging-button:disabled:hover{
-    background-color: #6aa585;
+    background-color: #6280db;
     color: #efefef96;
     border: 1px solid rgba(113, 113, 113, 0.04);
     box-shadow:1px 1px 2px #7b7b7b;
@@ -1698,7 +1698,7 @@ padding: 10px 0 0 0;
 
 .tx-tools .tx-sort .csort{
     display:inline-block;
-    background: -webkit-linear-gradient(top,  #00632e 0%,#00843d 100%);
+    background: -webkit-linear-gradient(top, #3058d1 0%,#3c65e0 100%);
     padding: 2px 10px;
     border: 1px solid #c5c5c599;
     border-radius: 4px;

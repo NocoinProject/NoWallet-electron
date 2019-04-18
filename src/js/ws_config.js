@@ -38,10 +38,10 @@ config.remoteNodeDefaultHost = '87.177.59.70:11898';
 // for TRTL:
 // raw list: https://raw.githubusercontent.com/turtlecoin/turtlecoin-nodes-json/master/turtlecoin-nodes.json
 // filtered: https://trtl.nodes.pub/api/getNodes
-config.remoteNodeListUpdateUrl = null
+config.remoteNodeListUpdateUrl = 'https://raw.githubusercontent.com/NocoinProject/nocoin-nodes-json/master/nocoin-nodes.json';
 
 // set to false if using raw/unfiltered node list
-config.remoteNodeListFiltered = true;
+config.remoteNodeListFiltered = false;
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [

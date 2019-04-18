@@ -1,6 +1,6 @@
 {
   "name": "NoWallet",
-  "productName": "NoCoin NoWallet",
+  "productName": "GUI NoWallet",
   "description": "NoCoin GUI Wallet",
   "version": "v0.1.1",
   "homepage": "https://github.com/NocoinProject/NoWallet-electron",

@@ -2,7 +2,7 @@
   "name": "NoWallet",
   "productName": "GUI NoWallet",
   "description": "NoCoin GUI Wallet",
-  "version": "v0.1.1",
+  "version": "v0.1.0",
   "homepage": "https://github.com/NocoinProject/NoWallet-electron",
   "repository": "https://github.com/NocoinProject/NoWallet-electron",
   "main": "main.js",
